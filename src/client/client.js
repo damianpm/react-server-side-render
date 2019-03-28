@@ -1,2 +1,5 @@
-// Starup point client
-console.log('Hi there')
+import React from 'react'
+import ReactDom from 'react-dom'
+import Home from './components/Home'
+
+ReactDom.hydrate(<Home />, document.getElementById('root'))
